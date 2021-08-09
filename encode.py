@@ -13,7 +13,6 @@ dictionary = {chr(i): i for i in range(dictionary_size)}
 string = ""             # String is null.
 compressed_data = []    # variable to store the compressed data.
 
-# iterating through the input symbols.
 # LZW Compression algorithm
 for symbol in data:                     
     string_plus_symbol = string + symbol # get input symbol.
